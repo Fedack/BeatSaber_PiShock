@@ -1,0 +1,65 @@
+{
+    "Target": "https://do.pishock.com/Api/",
+    "UsePiShock": true,
+    "Params": {
+        "Name": "",
+        "Username": "",
+        "Apikey": ""
+    },
+    "Miss": {
+        "Path": "APIOperate",
+        "Cooldown": 8,
+        "Mode": 3,
+        "0Static": 100,
+        "1Random": {
+            "Min": 20,
+            "Max": 80
+        },
+        "2Combo": {
+            "Mult": 2,
+            "Max": 80
+        },
+        "3InvCombo": {
+            "Mult": 2,
+            "Max": 80,
+            "Min": 20
+        },
+        "Params": {
+            "Code": "",
+            "Op": 0,
+            "Duration": 1
+        }
+    },
+    "Bomb": {
+        "Path": "APIOperate",
+        "Cooldown": 1,
+        "Mode": 0,
+        "0Static": 100,
+        "1Random": {
+            "Min": 20,
+            "Max": 80
+        },
+        "2Combo": {
+            "Mult": 2,
+            "Max": 80
+        },
+        "3InvCombo": {
+            "Mult": 2,
+            "Max": 80,
+            "Min": 20
+        },
+        "Params": {
+            "Code": "",
+            "Op": 0,
+            "Duration": 1
+        }
+    },
+    "Hit": {
+        "Active": false,
+        "Path": "APIBPOperate",
+        "Mult": 1,
+        "Params": {
+            "Code": ""
+        }
+    }
+}
